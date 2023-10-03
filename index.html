@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Criando Formulário de Cadastro" />
+    <meta name="author" content="Jéssica Guebur" />
+    <title>Atividade Criando Formulário de Cadastro</title>
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <img
+          src="./img/logo Kenzie.webp"
+          alt="Logo Kenzie"
+          width="200"
+          height="50"
+        />
+      </figure>
+    </header>
+
+    <main>
+      <article>
+        <h1>
+          Como aprender a programar do <strong>ZERO:</strong>passo a passo.
+        </h1>
+        <p>
+          Quer entrar em um mercado de trabalho que não para de crescer.
+          <br /><strong>Venha conferir a semana da tecnologia!</strong>
+        </p>
+        <p>
+          Para receber informações sobre a semana da tecnologia, basta se
+          cadastrar!
+        </p>
+        <h3><strong>Não perca tempo!</strong></h3>
+      </article>
+
+      <form>
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+        <h4>Envie seu Cadastro!</h4>
+        <div>
+          <label for="nome">Nome Completo</label>
+        </div>
+        <div>
+          <input type="text" placeholder="Nome" id="nome" name="nome" required />
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+        </div>
+        <div>
+          <input type="email" placeholder="E-mail" id="email" name="email" required />
+        </div>
+
+        <div>
+          <h2>O que te motivou a participar do evento?</h2>
+        </div>
+        <div>
+          <textarea
+            id="descreva_aqui"
+            placeholder="Descreva aqui..."
+            name="descreva_aqui"
+            rows="5"
+            cols="20"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="modulo">Selecione seu módulo.</label>
+        </div>
+        <div>
+          <select name="" required id="modulo">
+            <option value="">Escolher módulo</option>
+            <option value="primeiro_modulo">Primeiro Módulo M1</option>
+            <option value="segundo_modulo">Segundo Módulo M2</option>
+            <option value="terceiro_modulo">Terceiro Módulo M3</option>
+            <option value="quarto_modulo">Quarto Módulo M4</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="senha">Cadastre uma senha</label>
+        </div>
+        <div>
+          <input type="password" id="senha" placeholder="Senha" required />
+        </div>
+        <div>
+          <label for="confirme_senha">Confirme a senha</label>
+        </div>
+        <div>
+          <input
+            type="password"
+            id="confirme_senha"
+            placeholder="Repita a Senha"
+            required
+          />
+        </div>
+        <div>
+          <h5>Deseja receber novidades em seu e-mail?</h5>
+          <label for="sim">Sim</label>
+          <input type="radio" id="sim" name="receber_novidades" required />
+          <label for="não">Não</label>
+          <input type="radio" id="não" name="receber_novidades" required />
+        </div>
+        <div>
+          <input type="submit" value="Cadastrar">
+        </div>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <figure>
+        <img src="./img/logo Kenzie.webp" width="200" height="50" />
+      </figure>
+      <a href="https://kenzie.com.br/blog/" target="_blank"
+        >Acesse nosso blog</a>
+    </footer>
+  </body>
+</html>
